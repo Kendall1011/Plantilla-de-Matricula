@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+button.close-modal {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+}
+
+button.close-modal:hover {
+  background-color: darkred;
+}
+
+button.enroll-button {
+  background-color: green;
+  color: white;
+}
+
+button.enroll-button:hover {
+  background-color: darkgreen;
+}
+
+button.unenroll-button {
+  background-color: red;
+  color: white;
+}
+
+button.unenroll-button:hover {
+  background-color: darkred;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
